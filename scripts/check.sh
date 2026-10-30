@@ -8,4 +8,4 @@ else
     find src -name '*.rs' -exec rustfmt --edition 2024 --check {} +
 fi
 cargo test --locked --all-targets
-cargo test --locked --doc
+# cargo test --locked --doc

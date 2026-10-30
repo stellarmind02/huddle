@@ -4,6 +4,7 @@ fn main() {
 }
 
 fn greet() -> &'static str {
+    println!("Changed!");
     return "Hello, Test, Action";
 }
 
